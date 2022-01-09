@@ -6,7 +6,7 @@ The folllowing is a user manual.
 
 Web application:
 
-First step is to build the docker image: docker build -t planetly/ping:1 -f Dockerfile  .
+First step is to build the docker image: docker build -t planetly/ping:1 -f webApp/Dockerfile  .
 
 Second step is to run the container and then you have the web application running: docker run -p 5000:5000 -d --name ping-pong planetly/ping:1
 
