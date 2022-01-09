@@ -14,4 +14,4 @@ The web application will be reachable locally through the url: http://localhost:
 
 CLI:
 
-For the CLI you should install python, the requests library (pip install requests) and then run the script under /CLI/CLI.py specifying the endpoint and the value of the header x-secret-key, exapmple: py CLI.py "http://localhost:5000/ping" 4
+For the CLI you should install python, the requests library (pip install requests) and then run the script under /CLI/CLI.py specifying the endpoint and the value of the header x-secret-key, exapmple: py CLI.py "http://localhost:5000/ping" 4 (py CLI.py endpoint x_secret_key_header_value)
